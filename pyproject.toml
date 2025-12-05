@@ -1,0 +1,22 @@
+[project]
+name = "mic2e-storage"
+version = "0.1.0"
+description = "Storage Service for MIC2E"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.123.7",
+    "motor>=3.7.1",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.11.0",
+    "flake8>=7.3.0",
+    "isort>=7.0.0",
+    "mypy>=1.19.0",
+    "pre-commit>=4.5.0",
+]
