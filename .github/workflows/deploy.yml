@@ -1,4 +1,4 @@
-name: Deploy Storage to Server
+name: Deploy Storage API to Server
 
 on:
   push:
